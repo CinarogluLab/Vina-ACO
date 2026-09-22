@@ -1,0 +1,19 @@
+Vina-ACO
+Copyright 2026 Suleyman Selim Cinaroglu (s.selim.c@gmail.com)
+
+This product is a modified version of AutoDock Vina 1.2.7
+(https://github.com/ccsb-scripps/AutoDock-Vina), licensed under the Apache License 2.0.
+AutoDock Vina: Copyright (c) 2006-2010 The Scripps Research Institute; Copyright (c) the AutoDock
+Vina contributors, Center for Computational Structural Biology, Scripps Research.
+
+Changes relative to AutoDock Vina 1.2.7:
+- New files: src/lib/aco.h, src/lib/aco.cpp (ant colony optimization search).
+- Modified: src/main/main.cpp (ACO, --ensemble, --mc_steps options), src/lib/vina.h, src/lib/vina.cpp,
+  src/lib/monte_carlo.cpp, src/lib/model.h, src/lib/model.cpp, src/lib/bfgs.h,
+  src/lib/quasi_newton.h, src/lib/quasi_newton.cpp, and speed changes described in docs/ALGORITHM.md.
+- Added: CMakeLists.txt, build.sh, tools/, tests/, docs/ALGORITHM.md, example/aco_docking/.
+- Removed: the Python bindings, the upstream build system and documentation sources, and the
+  precomputed AutoDock4 maps of the examples.
+
+example/aco_docking/ is derived from PDB entry 5S8I via the PoseBusters benchmark
+(Buttenschoen, Morris & Deane, Chem. Sci. 2024, 15, 3130-3139).

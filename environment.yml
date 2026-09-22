@@ -1,0 +1,16 @@
+name: vina-aco
+channels:
+  - conda-forge
+dependencies:
+  - cxx-compiler
+  - cmake>=3.16
+  - make
+  - boost-cpp
+  - python>=3.10
+  - numpy
+  - rdkit
+  - scipy
+  - gemmi
+  - pip
+  - pip:
+      - meeko==0.7.1
