@@ -1,0 +1,23 @@
+{
+ "version": 1,
+ "kmax": 4,
+ "ncand": 30,
+ "threshold": 0.25,
+ "seed": 42,
+ "flexible_ring_atoms": 6,
+ "candidates": 11,
+ "converged": 11,
+ "note": "",
+ "same_stereo": 11,
+ "smiles": "CNC(=O)c1scc2c1OCCO2",
+ "members": [
+  {
+   "file": "conf0.pdbqt",
+   "sha256": "05db82252b1ce6f7ae4ed20c0aa864d0f7910ad9559db34d97034fba7d3a578b"
+  },
+  {
+   "file": "conf1.pdbqt",
+   "sha256": "0366452968df77154013c0829fb776d2bc5d0422cd6a44e5dae0bd825bc7f703"
+  }
+ ]
+}
